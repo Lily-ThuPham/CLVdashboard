@@ -35,24 +35,38 @@ The original dataset contains four tables: **customer_info**, **product_info**, 
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+Our subscription service demonstrates robust growth, evidenced by a 40%+ year-over-year increase at the end of 2021. Monthly recurring revenue shows highly-stable growth driven by well-managed monthly customer base. This signals strong market fit and effective acquisition strategies. While our 1.42% churn rate is competitive, the significant 58.6% rise in churned customers, particularly in the 46-55 age group, demands further analysis. Identifying churn drivers is crucial for sustainable growth. Despite overall positive trends, the average customer lifespan of 16.4 months, although improve by 31.9% YoY, indicates an opportunity to improve customer retention strategy, especially within our large base of monthly subscribers.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+![Customer Lifetime Value Dashboard](images/charts/dashboard_CLV.png)
 
 
 
 # Insights Deep Dive
-### Category 1:
+### Category 1: Customer liftime value insights (in 2021 as an instant)
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **1.** The overall MRR shows generally positive trend through out the year, increasing from 13.99ml from January to 19.26ml December. The “Existing” MRR is the largest contributor (up to 91.9% when consider total Net recurring revenue of 2021) to the total MRR and shows a consistent upward trend throughout the year. Churned MRR even though seemed to not hugely affect the overall revenue and appears to be increasing over time: starts at -$108,000 in January and reaches -$185,700 in December.
 
-[Visualization specific to category 1]
+![Monthly Recurring Revenue in 2021](images/charts/2021_MRR.png)
+
+  
+* **2.** Customer Lifetime Value Chart suggests that the current subscriber based is generating good value over time with the total of $7.87K for a whole year 2021, YoY increase is 64.4%, which is very significant. There are seemingly a downward trend from January to July/2021 and a upward trend begin from August to the end of the year. However, the fluctuations are too minor to point out a seasonal change.
+
+![Monthly Customer Lifetime value and Average Customer Spend](images/charts/2021_CLV)
+
+ 
+* **3.** For each of the four years (2018-2021), CLV exhibits a consistent upward trend within each year, consistently increases from January to December. This pattern strongly suggests a consistent driver of growth such as recurring revenue growth within each year.
+
+![2018-2021 Customer Lifetime value and Average Customer Spend](images/charts/CLV_2018-2021)
+
+
+* **4.** The overall number of churned customers have a increased tendency during the year (rising from 849 customers in January to 1498 in December). This escalating churn count is mirrored by a fluctuating, yet ultimately increasing churn rate, which began the year at 0.90% and peaked at 1.01% in December. Specifically, the period from September to December shows a substantial increase in both churned customers and the churn rate. Churned customers jumped from 1,189 in September to 1,426 in December, while the churn rate rose from 0.89% to 1.01% during the same period. As expected, monthly subscribers constituted the vast majority of churned customers each month, given the shorter subscription cycle.
+
+![2021 Monthly Amount of churned Customer and Churned Rate](images/charts/2021_ChurnbyProduct.png)
+
+
+* **5.** -	In term of customer distribution by subscription duration in 2021, 41.96% of all customers churn within 6 months, with monthly subscriptions contributing more significantly, 41.75% of customers stay over 15 months, with annual subscriptions dominating this category. Annual subscribers show a bimodal distribution, with high early churn by strong retention of remaining subscribers.
+
+![2021 Customer lifespan in Group and products](images/charts/Customer_distribution_bylifespan.png)
 
 
 ### Category 2:
