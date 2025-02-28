@@ -75,22 +75,22 @@ Our subscription service demonstrates robust growth, evidenced by a ***40% year-
 
 
 * **1. The 18-35 age group is a high-value, low-volume segment and the 46-65 age groups are high-volume, steady-growth segments.**
-- *The 56-65 age group has the highest number of active customers*, followed by the over 65 group, while the younger age groups (18-35 and 36-45) have significantly fewer customers. The churn rate is also highest for the youngest age group (18-35) at 3.909%, followed by the 36-45 age group at 3.859%. The older age groups have lower churn rates, (56-65 group at 3.59%).
-- Despite this, *the ***18-35 group*** has the highest CLV at* ***$9.6K***, followed by 36-45 at $8.7K. Older groups have CLV values of 46-55 at $8.0K, 56-65 at $7.6K, and over 65 at $7.9K. *Subscription duration is highest for the 18-35 group at* ***17.3 months***, while the 56-65 group, despite having the most active accounts, subscribes for an average of 16.1 months. This indicates that the 18-35 group are highly valuable customers and a prime target for retention effort.
+  - *The 56-65 age group has the highest number of active customers*, followed by the over 65 group, while the younger age groups (18-35 and 36-45) have significantly fewer customers. The churn rate is also highest for the youngest age group (18-35) at 3.909%, followed by the 36-45 age group at 3.859%. The older age groups have lower churn rates, (56-65 group at 3.59%).
+  - Despite this, *the ***18-35 group*** has the highest CLV at* ***$9.6K***, followed by 36-45 at $8.7K. Older groups have CLV values of 46-55 at $8.0K, 56-65 at $7.6K, and over 65 at $7.9K. *Subscription duration is highest for the 18-35 group at* ***17.3 months***, while the 56-65 group, despite having the most active accounts, subscribes for an average of 16.1 months. This indicates that the 18-35 group are highly valuable customers and a prime target for retention effort.
 
 ![Customer metrics by age](images/charts/CLV_churn_age.png)
 
 
-- The above reviews that the company's products or services are more appealing to older age groups. It could be due to factors like product relevance, marketing targeting, or brand perception. While the younger customers are less loyal or have different needs and preferences compared to older customers, this could be due to factors like changing lifestyles, budget constraints, or a preference for newer trends and technologies.
+  - The above reviews that the company's products or services are more appealing to older age groups. It could be due to factors like product relevance, marketing targeting, or brand perception. While the younger customers are less loyal or have different needs and preferences compared to older customers, this could be due to factors like changing lifestyles, budget constraints, or a preference for newer trends and technologies.
 
 * **2. Analyzing subscription choices: annual plans are overall preferred with lower churned rate.**
-- In 2021, the ratio between monthly and annual subscriptions remained stable. Older age groups (over 35) preferred annual plans (62.5%-63.3%), while the 18-35 group had only 56.1% annual subscriptions. Conversely, monthly subscriptions were more popular among the younger group, with 43.9%. Despite fewer monthly subscribers overall, they had a higher churn rate, making up 89.5%-92.2% of churned customers across age groups.
+  - In 2021, the ratio between monthly and annual subscriptions remained stable. Older age groups (over 35) preferred annual plans (62.5%-63.3%), while the 18-35 group had only 56.1% annual subscriptions. Conversely, monthly subscriptions were more popular among the younger group, with 43.9%. Despite fewer monthly subscribers overall, they had a higher churn rate, making up 89.5%-92.2% of churned customers across age groups.
 
 ![Customer activity by age and products in 2021](images/charts/2021_age_product.png)
 
 
 * **3. The segmentations seemed not to changed much over the last 5 years.**
-- Both CLV and customer activity show a consistent upward trend across all age groups from 2017 to 2021. The 18-35 age group exhibits highest CLV across all years (growing from $607.9 in 2017 to $9,459.7 in 2021), significantly outpacing other age segments. However, they have fewest active customers (from 310 in 2017 to 3,680 end of 2021). The 46-65 age groups are high-volume, steady-growth segments while .  
+  - Both CLV and customer activity show a consistent upward trend across all age groups from 2017 to 2021. The 18-35 age group exhibits highest CLV across all years (growing from $607.9 in 2017 to $9,459.7 in 2021), significantly outpacing other age segments. However, they have fewest active customers (from 310 in 2017 to 3,680 end of 2021). The 46-65 age groups are high-volume, steady-growth segments while .  
 
 ![Yearly changes of Customer Lifetime value and Customer activity for each age group](images/charts/Yearly_CLV_active_age.png)
 
