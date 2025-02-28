@@ -51,12 +51,12 @@ Our subscription service demonstrates robust growth, evidenced by a 40%+ year-ov
   
 * **2.** Customer Lifetime Value Chart suggests that the current subscriber based is generating good value over time with the total of $7.87K for a whole year 2021, YoY increase is 64.4%, which is very significant. There are seemingly a downward trend from January to July/2021 and a upward trend begin from August to the end of the year. However, the fluctuations are too minor to point out a seasonal change.
 
-![Monthly Customer Lifetime value and Average Customer Spend](images/charts/2021_CLV)
+![Monthly Customer Lifetime value and Average Customer Spend](images/charts/2021_CLV.png)
 
  
 * **3.** For each of the four years (2018-2021), CLV exhibits a consistent upward trend within each year, consistently increases from January to December. This pattern strongly suggests a consistent driver of growth such as recurring revenue growth within each year.
 
-![2018-2021 Customer Lifetime value and Average Customer Spend](images/charts/CLV_2018-2021)
+![2018-2021 Customer Lifetime value and Average Customer Spend](images/charts/CLV_2018-2021.png)
 
 
 * **4.** The overall number of churned customers have a increased tendency during the year (rising from 849 customers in January to 1498 in December). This escalating churn count is mirrored by a fluctuating, yet ultimately increasing churn rate, which began the year at 0.90% and peaked at 1.01% in December. Specifically, the period from September to December shows a substantial increase in both churned customers and the churn rate. Churned customers jumped from 1,189 in September to 1,426 in December, while the churn rate rose from 0.89% to 1.01% during the same period. As expected, monthly subscribers constituted the vast majority of churned customers each month, given the shorter subscription cycle.
