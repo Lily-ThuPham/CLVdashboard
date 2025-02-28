@@ -35,7 +35,7 @@ The original dataset contains four tables: **customer_info**, **product_info**, 
 
 ### Overview of Findings
 
-Our subscription service demonstrates robust growth, evidenced by a 40%+ year-over-year increase at the end of 2021. Monthly recurring revenue shows highly-stable growth driven by well-managed monthly customer base. This signals strong market fit and effective acquisition strategies. While our 1.42% churn rate is competitive, the significant 58.6% rise in churned customers, particularly in the 46-55 age group, demands further analysis. Identifying churn drivers is crucial for sustainable growth. Despite overall positive trends, the average customer lifespan of 16.4 months, although improve by 31.9% YoY, indicates an opportunity to improve customer retention strategy, especially within our large base of monthly subscribers.
+Our subscription service demonstrates robust growth, evidenced by a ***40% year-over-year increase at the end of 2021***. Monthly recurring revenue shows highly-stable growth driven by well-managed monthly customer base. This signals strong market fit and effective acquisition strategies. While our ***1.42% churn rate*** is competitive, the significant ***58.6% rise in churned customers***, particularly in the 46-55 age group, demands further analysis. Identifying churn drivers is crucial for sustainable growth. Despite overall positive trends, ***the average customer lifespan of 16.4 months***, although improve by 31.9% YoY, indicates an opportunity to improve customer retention strategy, especially within our large base of monthly subscribers.
 
 ![Customer Lifetime Value Dashboard](images/charts/dashboard_CLV.png)
 
@@ -44,40 +44,48 @@ Our subscription service demonstrates robust growth, evidenced by a 40%+ year-ov
 # Insights Deep Dive
 ### Category 1: Customer liftime value insights (in 2021 as an instant)
 
-* **1.** The overall MRR shows generally positive trend through out the year, increasing from 13.99ml from January to 19.26ml December. The “Existing” MRR is the largest contributor (up to 91.9% when consider total Net recurring revenue of 2021) to the total MRR and shows a consistent upward trend throughout the year. Churned MRR even though seemed to not hugely affect the overall revenue and appears to be increasing over time: starts at -$108,000 in January and reaches -$185,700 in December.
+* **1.** *The overall MRR shows generally positive trend* through out the year, increasing from 13.99ml from January to 19.26ml December. The “Existing” MRR is the largest contributor (up to 91.9% when consider total Net recurring revenue of 2021) to the total MRR and shows a consistent upward trend throughout the year. *Churned MRR even though seemed to not hugely affect the overall revenue* and appears to be increasing over time: starts at -$108,000 in January and reaches -$185,700 in December.
 
 ![Monthly Recurring Revenue in 2021](images/charts/2021_MRR.png)
 
   
-* **2.** Customer Lifetime Value Chart suggests that the current subscriber based is generating good value over time with the total of $7.87K for a whole year 2021, YoY increase is 64.4%, which is very significant. There are seemingly a downward trend from January to July/2021 and a upward trend begin from August to the end of the year. However, the fluctuations are too minor to point out a seasonal change.
+* **2.** Customer Lifetime Value Chart suggests that the current subscriber based is generating good value over time with the total of ***$7.87K for a whole year 2021***, ***YoY increase is 64.4%***, which is very significant. There are seemingly a downward trend from January to July-2021 and a upward trend begin from August to the end of the year. However, the fluctuations are too minor to point out a seasonal change.
 
 ![Monthly Customer Lifetime value and Average Customer Spend](images/charts/2021_CLV.png)
 
  
-* **3.** For each of the four years (2018-2021), CLV exhibits a consistent upward trend within each year, consistently increases from January to December. This pattern strongly suggests a consistent driver of growth such as recurring revenue growth within each year.
+* **3.** For each of the four years (2018-2021), CLV exhibits a consistent upward trend within each year, consistently increases from January to December. This pattern strongly suggests *a consistent driver of growth such as recurring revenue growth within each year*.
 
 ![2018-2021 Customer Lifetime value and Average Customer Spend](images/charts/CLV_2018-2021.png)
 
 
-* **4.** The overall number of churned customers have a increased tendency during the year (rising from 849 customers in January to 1498 in December). This escalating churn count is mirrored by a fluctuating, yet ultimately increasing churn rate, which began the year at 0.90% and peaked at 1.01% in December. Specifically, the period from September to December shows a substantial increase in both churned customers and the churn rate. Churned customers jumped from 1,189 in September to 1,426 in December, while the churn rate rose from 0.89% to 1.01% during the same period. As expected, monthly subscribers constituted the vast majority of churned customers each month, given the shorter subscription cycle.
+* **4.** *The overall number of churned customers have a increased tendency during the year* (rising from 849 customers in January to 1498 in December). This escalating churn count is mirrored by a fluctuating, yet ultimately increasing churn rate, which began the year at 0.90% and peaked at 1.01% in December. Specifically, the period from September to December shows a substantial increase in both churned customers and the churn rate. Churned customers jumped from 1,189 in September to 1,426 in December, while the churn rate rose from 0.89% to 1.01% during the same period. As expected, *monthly subscribers constituted the vast majority of churned customers* each month, given the shorter subscription cycle.
 
 ![2021 Monthly Amount of churned Customer and Churned Rate](images/charts/2021_ChurnbyProduct.png)
 
 
-* **5.** -	In term of customer distribution by subscription duration in 2021, 41.96% of all customers churn within 6 months, with monthly subscriptions contributing more significantly, 41.75% of customers stay over 15 months, with annual subscriptions dominating this category. Annual subscribers show a bimodal distribution, with high early churn by strong retention of remaining subscribers.
+* **5.** In term of customer distribution by subscription duration in 2021, ***41.96% of all customers churn within 6 months***, with monthly subscriptions contributing more significantly, ***41.75% of customers stay over 15 months***, with annual subscriptions dominating this category. Annual subscribers show a bimodal distribution, with high early churn by strong retention of remaining subscribers.
 
 ![2021 Customer lifespan in Group and products](images/charts/Customer_distribution_bylifespan.png)
 
 
-### Category 2:
+### Category 2: Analysis of Customer Behavior and CLV Drivers
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+![Customer Segmentation Dashboard](images/charts/dashboard_customer.png)
+
+
+* **1.** *The 56-65 age group has the highest number of active customers*, followed by the over 65 group, while the younger age groups (18-35 and 36-45) have significantly fewer customers. The churn rate is also highest for the youngest age group (18-35) at 3.909%, followed by the 36-45 age group at 3.859%. The older age groups have lower churn rates, (56-65 group at 3.59%).
   
+* Despite this, *the ***18-35*** group has the highest CLV at* ***$9.6K***, followed by 36-45 at $8.7K. Older groups have CLV values of 46-55 at $8.0K, 56-65 at $7.6K, and over 65 at $7.9K. *Subscription duration is highest for the 18-35 group *at* ***17.3 months***, while the 56-65 group, despite having the most active accounts, subscribes for an average of 16.1 months.
+
+![Customer metrics by age](images/charts/CLV_churn_age.png)
+
+
+* The above reviews that the company's products or services are more appealing to older age groups. It could be due to factors like product relevance, marketing targeting, or brand perception. While the younger customers are less loyal or have different needs and preferences compared to older customers, this could be due to factors like changing lifestyles, budget constraints, or a preference for newer trends and technologies.
+
 * **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
   
 * **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
 [Visualization specific to category 2]
 
