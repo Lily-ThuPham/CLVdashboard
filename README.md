@@ -27,7 +27,7 @@ The original dataset contains four tables: **customer_info**, **product_info**, 
 - **transactions_table** (enriched table): Each transaction is documented by a row for every payment made. This table includes transaction date, signup and cancellation dates, transaction amount, the associated plan/product, and its payment cycle.
 - **Calendar** (Common date table): A common date table is created in Power BI Query to aid in time-series metric calculation. 
 
-[Entity Relationship Diagram here]
+![Entity Relation Database diagram](images/diagram/ERD_diagram.png)
 
 
 
