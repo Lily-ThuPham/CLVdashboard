@@ -35,7 +35,7 @@ The original dataset contains four tables: **customer_info**, **product_info**, 
 
 ### Overview of Findings
 
-Our subscription service demonstrates robust growth, evidenced by a ***40% year-over-year increase at the end of 2021***. Monthly recurring revenue shows highly-stable growth driven by well-managed monthly customer base. This signals strong market fit and effective acquisition strategies. While our ***1.42% churn rate*** is competitive, the significant ***58.6% rise in churned customers***, particularly in the 46-55 age group, demands further analysis. Identifying churn drivers is crucial for sustainable growth. Despite overall positive trends, ***the average customer lifespan of 16.4 months***, although improve by 31.9% YoY, indicates an opportunity to improve customer retention strategy, especially within our large base of monthly subscribers.
+Our subscription service demonstrates robust growth, evidenced by a ***40.5% year-over-year increase at the end of 2021***. Monthly recurring revenue shows highly-stable growth driven by well-managed monthly customer base. This signals strong market fit and effective acquisition strategies. Our ***3.33% churn rate***, which has surged by 46.8% compared to 2020, signals an urgent need to bolster our customer retention efforts. Identifying churn drivers is crucial for sustainable growth. Despite overall positive trends, ***the average customer lifespan of 18.3 months***, although improve by 15.8% YoY, indicates an opportunity to improve customer retention strategy, especially within our large base of monthly subscribers.
 
 ![Customer Lifetime Value Dashboard](images/charts/dashboard_CLV.png)
 
