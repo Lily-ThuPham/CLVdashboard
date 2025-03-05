@@ -81,7 +81,7 @@ Our subscription service demonstrates robust growth, evidenced by a ***40.5% yea
 
 ### Category 3: Customer Support Center Dashboard 
 
-![Customer Service Report Dashboard](images/charts/dashboard_service)
+![Customer Service Report Dashboard](images/charts/dashboard_service.png)
 
 * ** 1.** Despite a 40.3% growth in customer base by the end of 2021, **support cases surged by 66.5%**, averaging over 371 cases per day – a 67% increase. This disproportionate rise in support requests, alongside the previously mentioned churn trends, highlights *potential issues with product usability or service quality*.
   
