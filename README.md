@@ -42,15 +42,17 @@ Our subscription service demonstrates robust growth, evidenced by a ***40.5% yea
 
 
 # Insights Deep Dive
-### Category 1: Customer liftime value insights (in 2021 as an instant)
+### Category 1: Customer lifetime value insights (in 2021 as an instant)
 
-* **1.** *The overall YTD MRR shows generally positive trend* through out the year, ***increasing from 12.21ml from January to 16.3ml December***. The “Existing” MRR is the largest contributor (up to 92.5% when consider total Net recurring revenue of 2021) to the total MRR and shows a consistent upward trend throughout the year. Churned MRR is calculated to be a rolling sum of churned customer since the beginning of the period, the effect of rolling MRR is obvious in February or November since it deminized the growth of Net MRR. Additionally, New MRR contributions decrease in the latter half (*starting in June with 1.7ml to December 0.8ml*) , suggesting potential challenges in acquiring new customers and sustaining existing ones. 
+* **1.** *The overall YTD MRR shows generally positive trend* through out the year, ***increasing from 12.21ml from January to 16.3ml December***. The “Existing” MRR is the largest contributor (up to 92.5% when consider total Net recurring revenue of 2021) to the total MRR and shows a consistent upward trend throughout the year. Churned MRR is calculated to be a rolling sum of churned customer since the beginning of the period, the effect of rolling MRR is obvious in February or November since it deminized the growth of Net MRR. Additionally, New MRR contributions decrease in the latter half (*starting in June with 1.7ml to December 0.8ml*) , suggesting a projection of decreasing recurrent revenue, recurrent profit and potential challenges in acquiring new customers and sustaining existing ones. 
 
 ![Monthly Recurring Revenue in 2021](images/charts/2021_MRR.png)
 
   
 * **2.** Customer Lifetime Value Chart suggests that the current subscriber based is generating good value over time with the total of ***$8.8K for a whole year 2021***, ***YoY increase is 44.3%***, which is very significant. There are seemingly a downward trend from January to July-2021 and a upward trend begin from August to the end of the year mirroring a gradual rise in average customer lifetime.. However, the fluctuations are too minor to point out a seasonal change.  
-* A large majority of customers are on monthly plans.  The 10-12 month lifespan segment has the highest concentration of monthly subscribers (149K), significantly more than any other segment.  Conversely, annual subscribers are most prevalent in the over 15 months segment (64K), indicating longer retention for annual plans. This suggests that while customer retention for monthly plans may fluctuate, overall customer value and lifespan are steadily improving, particularly for annual subscribers.
+* A large majority of customers are on monthly plans.  The 10-12 month lifespan segment has the highest concentration of annual subscribers (149K), significantly more than any other segment.  Conversely, annual subscribers are most prevalent in the under 6 months segment (105K - 96.5%), indicating longer retention for annual plans. This suggests that while customer retention for monthly plans may fluctuate, overall customer value and lifespan are steadily improving, particularly for annual subscribers.
+
+![Customer Distribution by their Lifespan](images/charts/Customer_distribution_bylifespan.png)
 
 
 * **3.** *The overall number of churned customers have a increased tendency during the year* (rising from 894 customers in January to 1498 in December). This escalating churn count is mirrored by a fluctuating, yet ultimately increasing churn rate, which began the year at 0.90% and peaked at 1.02% in December. Specifically, the period from September to December shows a substantial increase in both churned customers and the churn rate. Churned customers jumped from 1,189 in September to 1,426 in December, while the churn rate rose from 0.89% to 1.01% during the same period. As expected, *monthly subscribers constituted the vast majority of churned customers* each month, given the shorter subscription cycle. Annual subscribers have a tendency to churned less untill the end of the year, indicating a better retention in annual customers. 
@@ -63,73 +65,58 @@ Our subscription service demonstrates robust growth, evidenced by a ***40.5% yea
 ![Customer Segmentation Dashboard](images/charts/dashboard_customer.png)
 
 
-* **1. The 18-35 age group is a high-value, low-volume segment and the 46-65 age groups are high-volume, steady-growth segments.**
+* **1.**  The annual product type significantly contributes to both revenue (64.21%) and customer based (64.0%), indicating higher value and potentially longer lifespans compared to other products.
+
+* **2. The 18-35 age group is a high-value, low-volume segment and the 46-65 age groups are high-volume, steady-growth segments.**
   - *The 56-65 age group has the highest number of active customers*, followed by the over 65 group, while the younger age groups (18-35 and 36-45) have significantly fewer customers. The churn rate is also highest for the youngest age group (18-35) at 3.56%, followed by the 36-45 age group at 3.5%. The older age groups have lower churn rates, (56-65 group at 3.29%).
   - Despite this, *the ***18-35 group*** has the highest CLV at* ***$10.4K***, followed by 36-45 at $9.6K. Older groups have CLV values of 46-55 at $8.9K, 56-65 at $8.6K, and over 65 at $8.8K. *Subscription duration is highest for the 18-35 group at* ***18.8 months***, while the 56-65 group, despite having the most active accounts, subscribes for an average of 18.1 months. This indicates that the 18-35 group are highly valuable customers and a prime target for retention effort.
 
-  - The above reviews that the company's products or services are more appealing to older age groups. It could be due to factors like product relevance, marketing targeting, or brand perception. While the younger customers are less loyal or have different needs and preferences compared to older customers, this could be due to factors like changing lifestyles, budget constraints, or a preference for newer trends and technologies.
 
-* **2. Analyzing subscription choices: annual plans are overall preferred with lower churned rate.**
-  - In 2021, the ratio between monthly and annual subscriptions remained stable. Older age groups (over 35) preferred annual plans (62.5%-63.3%), while the 18-35 group had only 56.1% annual subscriptions. Conversely, monthly subscriptions were more popular among the younger group, with 43.9%. Despite fewer monthly subscribers overall, they had a higher churn rate, making up 89.5%-92.2% of churned customers across age groups.
+* **3. Analyzing subscription choices: annual plans are overall preferred with lower churned rate.**
+  - In 2021, the ratio between monthly and annual subscriptions remained stable. Older age groups (over 35) preferred annual plans (62% - 64.68%), while the 18-35 group had only 57.8% annual subscriptions. Conversely, monthly subscriptions were more popular among the younger group, with 42.2%. Despite fewer monthly subscribers overall, they had a significantly higher churn rate (12.5% vs 1.1% churned rate of annual subscribers)
 
 ![Customer activity by age and products in 2021](images/charts/2021_age_product.png)
 
+  - The above reviews that the company's products or services are more appealing to older age groups. It could be due to factors like product relevance, marketing targeting, or brand perception. While the younger customers are less loyal or have different needs and preferences compared to older customers, this could be due to factors like changing lifestyles, budget constraints, or a preference for newer trends and technologies.
 
-* **3. The segmentations seemed not to changed much over the last 5 years.**
-  - Both CLV and customer activity show a consistent upward trend across all age groups from 2017 to 2021. The 18-35 age group exhibits highest CLV across all years (growing from $607.9 in 2017 to $9,459.7 in 2021), significantly outpacing other age segments. However, they have fewest active customers (from 310 in 2017 to 3,680 end of 2021). The 46-65 age groups are high-volume, steady-growth segments while .  
+### Category 3: Customer Support Center Dashboard 
 
-![Yearly changes of Customer Lifetime value and Customer activity for each age group](images/charts/Yearly_CLV_active_age.png)
+![Customer Service Report Dashboard](images/charts/dashboard_service)
 
-
-### Category 3:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* ** 1.** Despite a 40.3% growth in customer base by the end of 2021, **support cases surged by 66.5%**, averaging over 371 cases per day – a 67% increase. This disproportionate rise in support requests, alongside the previously mentioned churn trends, highlights *potential issues with product usability or service quality*.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* ** 2.** However, *the average case per customer remains less than 2 cases/customer* (**1.28 case/customer YoY 12.2%**). This suggests that while the volume of support cases is high, individual customers are not repeatedly encountering issues.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **3. The most cases concentrated in supporting for monthly subscribers**, with a peak from July to October 2021, reaching over 10K cases. However, the churned customer trend, while fluctuating, doesn't directly correlate with the support case volume. 
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
-
+* **4.** In 2021, **customers aged 56-65** who contacted support exhibited the highest churn rate, with 7K out of 50K active cases ultimately churning.  Specifically, **male monthly subscribers** in this age group displayed the highest contributions.
 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following:
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+* Incentivize Annual Subscriptions: Average customer lifespan is less than 2 years YTD despite 5 years of service providing. Offer discounts and benefits to convert monthly subscribers to annual plans, emphasizing value and cost savings.
+
+* Target Younger Demographics: Younger demographic is the main driver of Customer lifetime values. Enhance digital marketing on platforms frequented by younger audiences and tailor content to each age group's financial interests.
+
+* Improve Support for Older Demographics: Investigate the high churn rate of older customers (46-65) after support interactions and implement specialized training or resources to address their needs.
+
+* Minimize churn rate by extensive churn analysis and competition benchmarking: The volume of churned customer and rate of churn has a tendency to increase by the end of the year, contributed vastly by monthly subscribers.
+
+* Optimize Support & Product Usability and improve customer experience: Analyze support cases and customer feedback to identify areas for improvement in product usability and support processes, especially with monthly customers who are reported with most support requests. 
+
+* Enhance Customer Retention: Implement proactive retention strategies, including loyalty programs and personalized engagement, to reduce churn and maximize CLV.
+
+* Deepen Customer Understanding:  Analysis suggests the customer tendency to favor annual plans however they tend to churn after one year. Develop detailed customer profiles to understand their journey, preferences, and churn reasons.  Use this data to personalize communication and optimize offerings. 
 
 
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* Assumption 1 - Transaction Timing: Subscription fees are assumed to be charged on the signup date and at the beginning of each new cycle (30 days for monthly, 365 days for annual) until cancellation.
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+* Assumption 2 - Unique Customer IDs: Each customer_id is assumed to represent a unique customer with only one signup and cancellation date, implying no re-subscriptions.
   
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Assumption 3 - Business Start Date: The analysis assumes the business commenced in 2017, based on the earliest data available in the dataset.
