@@ -8,7 +8,7 @@ Objectives and insights are provided on the following key areas:
 - **Category 2:** Investigate customer behaviour 
 - **Category 3:** Call/Support center activities to further 
 
-The document for Python code to explore, clean and transform data can be found here [link].
+The document for Python code to explore, clean and transform data can be found here ![link](Data_wraggling.ipynb).
 
 Targed SQL queries regarding various business questions can be found here [link].
 
