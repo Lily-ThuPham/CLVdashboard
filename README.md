@@ -10,10 +10,7 @@ Objectives and insights are provided on the following key areas:
 
 The document for Python code to explore, clean and transform data can be found here [link](Data_wraggling.ipynb).
 
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Power BI dashboard used to report and explore sales trends can be found here [link].
-
+An interactive Power BI dashboard used to report and explore sales trends can be found here [link](https://app.powerbi.com/view?r=eyJrIjoiY2MzMmRkMGItYTY1NS00YzQxLWFmMGQtNzU3MzA1MDFkYmNiIiwidCI6IjE2NzIwYmVkLTY1ZWItNGFhMi04ZjMwLWQxY2UxNzBjZjAwMCIsImMiOjEwfQ%3D%3D).
 
 
 # Data Structure & Initial Checks
